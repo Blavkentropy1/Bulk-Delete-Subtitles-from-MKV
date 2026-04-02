@@ -13,8 +13,8 @@ import re
 
 # Configuration
 DRY_RUN = False
-INPUT_DIRECTORIES = os.getenv("MKV_INPUT_DIRS", "/home/ryan/Server/Movies/,/home/ryan/Server/Movies2/,/home/ryan/Server/Movies3/").split(",")
-LOG_DIRECTORY = os.getenv("MKV_LOG_DIR", "/home/ryan/Server/Dropbox/Program/scripts/Delete_subs/")
+INPUT_DIRECTORIES = os.getenv("MKV_INPUT_DIRS", "/home/Movies/,/home//Movies2/,/home//Movies3/").split(",")
+LOG_DIRECTORY = os.getenv("MKV_LOG_DIR", "/home/ryan//Program/scripts/Delete_subs/")
 LOG_FILE = os.path.join(LOG_DIRECTORY, "non_english_subs.log")
 CHECKED_FILES_LOG = os.path.join(LOG_DIRECTORY, "checked_files.log")
 MISSING_FILES_LOG = os.path.join(LOG_DIRECTORY, "missing_files.log")
